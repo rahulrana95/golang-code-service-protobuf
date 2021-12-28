@@ -11,3 +11,8 @@ This is a companion repository for my [GRPC Golang course](http://bit.ly/grpc-go
 - Unary, Server Streaming, Client Streaming, BiDi Streaming
 - Error Handling, Deadlines, SSL Encryption
 - Blog API CRUD w/ MongoDB
+
+
+extension:
+vscode-proto3
+Clang-Format
