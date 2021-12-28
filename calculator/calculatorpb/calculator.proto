@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package calculator;
+option go_package="/calculator/calculatorpb";
+
+message NNumbersSumRequest {
+  repeated int32 values = 1;
+}
+
+message NNumbersSumResponse {
+  int32 result = 1;
+}
+
+service CalculatorService {
+  // Unary API
+  rpc GetNNumbersSum(NNumbersSumRequest) returns (NNumbersSumResponse) {}
+}
