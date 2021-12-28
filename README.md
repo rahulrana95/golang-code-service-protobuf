@@ -16,3 +16,7 @@ This is a companion repository for my [GRPC Golang course](http://bit.ly/grpc-go
 extension:
 vscode-proto3
 Clang-Format
+
+
+generate code from proot file
+protoc greet/greetpb/greet.proto --go_out=plugins=grpc:.
